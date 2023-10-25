@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: local("SpaceGrotesk"), url(src/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+body {
+  background-color: #646cff;
+  font-family: "SpaceGrotesk";
+}
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.gameContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.player {
+  width: 8rem;
+  height: 12rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  background-color: white;
+  position: relative;
+  text-transform: uppercase;
+}
+.player h2 {
+  margin-top: 3rem;
+}
+.player .counter {
+  margin-top: 2rem;
+}
+.player img {
+  width: 3.5rem;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p1Container {
+  margin-left: 5rem;
+}
+
+.p2Container {
+  margin-right: 5rem;
+}
+
+.gridContainer {
+  position: relative;
+  margin-top: 20rem;
+}
+.gridContainer img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/*# sourceMappingURL=styles.css.map */
